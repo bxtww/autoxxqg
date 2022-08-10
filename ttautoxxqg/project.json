@@ -1,0 +1,15 @@
+{
+  "assets": [],
+  "build": {
+    "build_number": 0,
+    "build_time": 0
+  },
+  "useFeatures": [],
+  "icon": "res/logo.png",
+  "main": "main.js",
+  "name": "学习老司机",
+  "packageName": "com.xuexi.laosiji",
+  "scripts": {},
+  "versionCode": 100,
+  "versionName": "100.0.0"
+}
