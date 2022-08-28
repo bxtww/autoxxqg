@@ -1,0 +1,204 @@
+[
+  {
+    "name": "watchdog",
+    "type": "text",
+    "label": "看门狗（填1800就是超过30分钟重试）",
+    "validation": "required",
+    "help": "空着或0默认5000s，单位为秒，超过指定秒数即重新执行"
+  },
+  {
+    "name": "slide_verify",
+    "type": "text",
+    "label": "滑动验证时间",
+    "validation": "required",
+    "help": "空着或0不启动滑动"
+  },
+  {
+    "name": "fast_mode",
+    "type": "checkbox",
+    "label": "无障碍模式2",
+    "help": "哪个好选择哪个"
+  },
+  {
+    "name": "ddtong",
+    "type": "checkbox",
+    "label": "点点通",
+    "help": "没必要开启"
+  },
+  {
+    "name": "is_exit",
+    "type": "checkbox",
+    "label": "开始前是否停用强国",
+    "help": "保持每次运行前在首页或者关闭"
+  },
+  {
+    "name": "pinglun",
+    "type": "select",
+    "label": "评论",
+    "options": {
+      "true": "做",
+      "false": "不做"
+    },
+    "validation": "required",
+    "help": "评论后自动删除"
+  },
+  {
+    "name": "shipin",
+    "type": "select",
+    "label": "视听",
+    "options": {
+      "true": "做",
+      "false": "不做"
+    },
+    "validation": "required",
+    "help": "百灵6篇"
+  },
+  {
+    "name": "wenzhang",
+    "type": "select",
+    "label": "文章",
+    "options": {
+      "true": "做",
+      "false": "不做"
+    },
+    "validation": "required",
+    "help": "阅读6篇"
+  },
+  {
+    "name": "meiri",
+    "type": "select",
+    "label": "每日",
+    "options": {
+      "true": "做",
+      "false": "不做"
+    },
+    "validation": "required",
+    "help": "有几率做不对建议手动"
+  },
+  {
+    "name": "meizhou",
+    "type": "select",
+    "label": "每周",
+    "options": {
+      "daoxu": "倒序",
+      "zhengxu": "正序",
+      "false": "不做"
+    },
+    "validation": "required",
+    "help": "有几率做不对建议手动"
+  },
+  {
+    "name": "zhuanxiang",
+    "type": "select",
+    "label": "专项",
+    "options": {
+      "daoxu": "倒序",
+      "zhengxu": "正序",
+      "false": "不做"
+    },
+    "validation": "required",
+    "help": "有几率做不对建议手动"
+  },
+  {
+    "name": "tiaozhan",
+    "type": "select",
+    "label": "挑战",
+    "options": {
+      "true": "做",
+      "false": "不做"
+    },
+    "validation": "required",
+    "help": "打错会自动重来"
+  },
+  {
+    "name": "ocr_plugin",
+    "type": "checkbox",
+    "label": "是否开启第三方OCR",
+    "help": "内置不行换这个，但得提前安装"
+  },
+  {
+    "name": "ocr_maxtime",
+    "type": "text",
+    "label": "OCR识别速度",
+    "validation": "required",
+    "help": "空或默认5000，建议5000"
+  },
+  {
+    "name": "duizhan_mode",
+    "type": "select",
+    "label": "对战模式",
+    "options": {
+      "suiji": "随机",
+      "guding": "固定",
+      "shoudong": "手动"
+    },
+    "validation": "required",
+    "help": "新版用随机"
+  },
+  {
+    "name": "jisu",
+    "type": "text",
+    "label": "急速对战延迟）",
+    "validation": "required",
+    "help": "空着或0默认500s，单位为秒，建议500"
+  },
+  {
+    "name": "guaji",
+    "type": "checkbox",
+    "label": "四人第一场挂机",
+    "help": "四人首次对手强，挂机不扣积分"
+  },
+  {
+    "name": "siren",
+    "type": "select",
+    "label": "四人",
+    "options": {
+      "true": "做",
+      "false": "不做"
+    },
+    "validation": "required",
+    "help": "想多拿就开启，无所谓就关闭加快学习时间"
+  },
+  {
+    "name": "dacuo_num",
+    "type": "text",
+    "label": "四人答错次数",
+    "validation": "required",
+    "help": "默认2，高级分输0"
+  },
+  {
+    "name": "shuangren",
+    "type": "select",
+    "label": "双人",
+    "options": {
+      "true": "做",
+      "false": "不做"
+    },
+    "validation": "required",
+    "help": "想多拿就开启，无所谓就关闭加快学习时间"
+  },
+  {
+    "name": "bendi",
+    "type": "select",
+    "label": "本地",
+    "options": {
+      "true": "做",
+      "false": "不做"
+    },
+    "validation": "required",
+    "help": "点了费不了10秒"
+  },
+  {
+    "name": "dingyue",
+    "type": "select",
+    "label": "订阅",
+    "options": {
+      "false": "不做",
+      "zhengxu": "正序",
+      "zhangxin": "上新"
+    },
+    "validation": "required",
+    "help": "V2.33版本以下选择，高版本忽视"
+  }
+ 
+]
