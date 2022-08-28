@@ -1,5 +1,5 @@
 
-var hamibot={env:{yinliang:"0",zhanghao:"",APP_ENV:"production",USER_ID:"",ROBOT_ID:"",SCRIPT_ID:"",TIMESTAMP:""},
+var hamibot={env:{zhanghao:"",APP_ENV:"production",USER_ID:"",ROBOT_ID:"",SCRIPT_ID:"",TIMESTAMP:""},
        plan:{name:"免费",onFreeTrial:false,model:"free"},robotName:"",};
 
 auto.waitFor();//mode = "fast"
