@@ -585,11 +585,11 @@ ui.autoService.on("check", function (checked) {
 }); */
  
 // 当用户回到本界面时，resume事件会被触发
-ui.emitter.on("resume", function () {
+/* ui.emitter.on("resume", function () {
     // 此时根据无障碍服务的开启情况，同步开关的状态
     ui.autoService.checked = auto.service != null;
     ui.consoleshow.checked = floaty.checkPermission();
-});
+}); */
 
 // 打开日志
 ui.log.click(function () {
@@ -614,12 +614,12 @@ ui.start.click(function () {
         return;
     }
     threads.start(function () {
-        /* let url = [
-            'https://sp.sec-an.cn/storage01/Better-Auto-XXQG/'+ui.script_chosen.getSelectedItemPosition()+'.js',
-            'https://ghproxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/'+ui.script_chosen.getSelectedItemPosition()+'.js',
-            'https://cdn.jsdelivr.net/gh/sec-an/Better-Auto-XXQG@main/'+ui.script_chosen.getSelectedItemPosition()+'.js',
-            'https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/'+ui.script_chosen.getSelectedItemPosition()+'.js',
-        ]; */
+        let url = [
+            'https://xuexilaosiji.coding.net/p/xxqg/d/xxqg/git/tree/master/'+ui.script_chosen.getSelectedItemPosition()+'.js',
+            'https://ghproxy.com/https://github.com/qchengq/autoxxqg/tree/main/ttautoxxqg/'+ui.script_chosen.getSelectedItemPosition()+'.js',
+            'https://cdn.jsdelivr.net/gh/qchengq/autoxxqg@tree/main/ttautoxxqg/'+ui.script_chosen.getSelectedItemPosition()+'.js',
+            'https://github.91chi.fun/https://github.com/qchengq/autoxxqg/tree/main/ttautoxxqg/'+ui.script_chosen.getSelectedItemPosition()+'.js',
+        ];
         for (var i = 0; i < url.length; i++) {
             try {
                 let res = http.get(url[i]);
